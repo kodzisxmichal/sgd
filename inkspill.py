@@ -151,9 +151,9 @@ def main():
 
 
 def drawMoveCounter(moveCount):
-    font = pygame.font.Font(None, 36)  # Choose font and size
-    text = font.render(f"Moves: {moveCount}", True, BLACK)  # Render the text
-    DISPLAYSURF.blit(text, (10, 10))  # Draw in top-left corner
+    font = pygame.font.Font(None, 36)
+    text = font.render(f"Moves: {moveCount}", True, BLACK)
+    DISPLAYSURF.blit(text, (10, 10))
 
 
 def checkForQuit():
